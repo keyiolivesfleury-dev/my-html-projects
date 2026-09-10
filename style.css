@@ -1,19 +1,76 @@
 html {
-    font-size: 22px;
+    background: papayawhip;
+
 }
 
 body {
     min-height: 100vh;
     max-width: 800px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
+    font-size: 2rem;
+    text-transform: capitalize;
+
 }
 
-th, td, caption {
-    border: 1px solid #333;
+form,
+label,
+input,
+textarea,
+button {
+    font-size: inherit;
+}
+
+table {
+    font-size: 0.9em;
+    width: 60%;
+}
+
+th,
+td,
+caption {
+    border: 1px solid rgb(51, 51, 51);
     font-family: 'Courier New', Courier, monospace;
     border-collapse: separate;
     padding: 0.5rem;
+
+
+}
+
+.color {
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+a:visited {
+    color: purple;
+}
+
+a:hover,
+a:focus {
+    color: hsl(50, 75%, 40%, 1);
+    outline: solid green;
+    border-radius: 2rem 2rem;
+    background: #333;
+}
+
+a:active {
+    color: hsl(50, 75%, 40%, 0.5);
+}
+
+ul {
+    list-style-type: square;
+}
+
+::marker {
+    color: darkgreen
 }
